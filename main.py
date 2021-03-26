@@ -14,7 +14,10 @@ except:
 window = Tk()
 window.title("Clock")
 window.geometry('500x250')
-
+stopwatch_counter_num = 66600
+stopwatch_running = False
+timer_counter_num = 66600
+timer_running = False
 
 def clock():
     date_time = datetime.datetime.now().strftime("%d-%m-%Y %H:%M:%S/%p")
