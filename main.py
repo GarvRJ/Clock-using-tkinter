@@ -1,11 +1,14 @@
 import datetime
-from tkinter.ttk import *
-from ModTkinter import *
+import platform
+from tkinter import *
+from tkinter.ttk import Notebook
 
 try:
     import winsound
 
     tpe = 'windows'
+
+
 except:
     import os
 
